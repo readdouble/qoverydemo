@@ -2,7 +2,7 @@ application:
   name: qoverydemo
   project: myProject
   publicly_accessible: true
-  port: 8080
+  port: 3001
 routers:
 - name: my-router
   routes:
