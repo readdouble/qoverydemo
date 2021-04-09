@@ -1,0 +1,11 @@
+application:
+  name: qoverydemo
+  project: myProject
+  publicly_accessible: true
+  port: 8080
+routers:
+- name: my-router
+  routes:
+  - application_name: qoverydemo
+    paths:
+    - /
