@@ -1,0 +1,15 @@
+---
+application:
+  name: "qoverydemo"
+  project: "nodejsanddb"
+  organization: "QoveryCommunity"
+databases:
+- type: "POSTGRESQL"
+  name: "database"
+  version: "12"
+routers:
+- name: "main-qoverydemo"
+  routes:
+  - application_name: "qoverydemo"
+    paths:
+    - "/*"
